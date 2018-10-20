@@ -14,7 +14,7 @@ public void loginASBankManager() throws InterruptedException{
 
 	driver.findElement(By.cssSelector(OR.getProperty("bmlBtn"))).click();
 	Thread.sleep(2000);
-	//Assert.assertTrue(isElementDisplayed(By.cssSelector(OR.getProperty("addCustBtn"))), "Login not successful");
+	Assert.assertTrue(isElementDisplayed(By.cssSelector(OR.getProperty("addCustBtn"))), "Login not successful");
 	//Assert.fail("Test case failed");
 }
 
